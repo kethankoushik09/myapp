@@ -1,0 +1,61 @@
+
+
+.error {
+  color: red;
+  text-align: center;
+}
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.signup-container {
+  background-color: #000;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.signup-box {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0px 10px rgba(251, 253, 255, 0.5);
+  width: 100%;
+  max-width: 600px;
+  color: white;
+}
+
+.signup-box label,
+.signup-box h2,
+.signup-box select,
+.signup-box input,
+.signup-box .form-control,
+.signup-box .form-select {
+  color: white;
+  background-color: #1c1c1c;
+  border-color: #555;
+}
+
+.signup-box input::placeholder,
+.signup-box select {
+  color: #ccc;
+}
+
+.signup-box .form-control:focus,
+.signup-box .form-select:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+}
+
+.error-box {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #f5c2c7;
+}

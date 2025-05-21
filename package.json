@@ -16,14 +16,15 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://kethankoushik09.github.io/myapp/",
+  "homepage": "https://kethankoushik09.github.io/myapp",
 
-  "scripts": {
+ "scripts": {
   "start": "react-scripts start",
   "build": "react-scripts build",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
 },
+
 
   "eslintConfig": {
     "extends": [
